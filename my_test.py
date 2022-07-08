@@ -29,6 +29,8 @@ def test_show_account():
     result = show_account(base + "/accounts?token=" + token)
     assert type(result) == dict
 
+    
+    
 
 def test_list_transactions():
     result = list_transactions("https://www.buxfer.com/api/transactions?token=kq5uhi7qksv6k8uo7503hu3jh6&startDate=2018-05-01&endDate=2018-05-30")
